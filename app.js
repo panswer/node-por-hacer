@@ -2,7 +2,8 @@
 const argv = require('./config/yargs').argv,
     porHacer = require('./por-hacer/por-hacer'),
     colors = require('colors');
-
+// git tag -a v1.0.0 -m "Primera version" para realizar crea un tag
+// git push --tags Sube a gitHub el tag o tags
 /* 
     Comandos para aplicacion de tareas por hacer
     node app crear -d "Pasear al perro"
